@@ -11,21 +11,15 @@
 #main-quote{
     position: relative;
     margin-left: 0;
-    background-color: azure;
+    border-left: 8px solid green;
+    background-color: #f8fffe;
     height: 40px;
     display: block;
-    margin-left: 8px;
 }
 
 #main-quote > p{
-    padding-top: 10px;
-    font-weight: 600;
-    
-}
-.block{
-    position: absolute;
-    block-size: 10px;
-    writing-mode: vertical-rl;
-    background-color: green;
-    height: 40px;
+    padding: 15px;
+    font-weight: bold;
+    margin: 10px;
+    max-width: 600px;
 }
